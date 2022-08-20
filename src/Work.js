@@ -35,17 +35,21 @@ function Work() {
                         </p>
                         <div className='container'>
                             <p className="subtext-list">
-                                • <a href="https://cygnusos.com" >cygnusos.com</a>
+                                • <a href="https://cygnusos.com" target="_blank" >cygnusos.com</a>
                                 <br></br>
-                                • <a href="https://web.archive.org/web/20211120172507/https://spadebee.com/">spadebee.com ( now taken down )</a>
+                                • <a href="https://blog.cygnusos.com" target="_blank" >blog.cygnusos.com</a>
                                 <br></br>
-                                • <a href="https://wehumans.ro.nf">wehumans.ro.nf</a>
+                                • <a href="https://web.archive.org/web/20211120172507/https://spadebee.com/" target="_blank" >spadebee.com ( now taken down )</a>
+                                <br></br>
+                                • <a href="https://minecraftbutcursed.com" target="_blank" >minecraftbutcursed.com</a>
+                                <br></br>
+                                • <a href="https://wehumans.ro.nf" target="_blank" >wehumans.ro.nf</a>
                                 <br></br>
                                 • This website
                                 <br></br>
                                 And many more projects for clients!
                                 <br></br>
-                                There‘s more on my <a href="https://github.com/dhruvgera">GitHub</a> account! Some of my work is on organisations where I work with other people.
+                                There's more on my <a href="https://github.com/dhruvgera" target="_blank" >GitHub</a> account! Some of my work is on organisations where I work with other people.
                             </p>
                         </div>
                         <br></br>

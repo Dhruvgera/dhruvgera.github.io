@@ -1,6 +1,8 @@
 import Background from './background';
 import Mainpage from './Mainpage';
 import Aboutme from './aboutme';
+import Work from './Work';
+import Contactme from './Contactme';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -10,8 +12,10 @@ function App() {
       <Background />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Mainpage />} />
-          <Route path="aboutme" element={<Aboutme />} />
+          <Route exact path="/" element={<Mainpage />} />
+          <Route exact path="aboutme" element={<Aboutme />} />
+          <Route exact path="Work" element={<Work />} />
+          <Route exact path="Contactme" element={<Contactme />} />
         </Routes>
       </BrowserRouter></>
   );

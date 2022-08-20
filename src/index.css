@@ -45,6 +45,10 @@ code {
   font-size: 40px;
 }
 
+.subtext-list{
+  font-family: 'Poppins';
+  font-size: 15px;
+}
 
 .container-aboutme {
   font-family: 'Poppins';
@@ -60,3 +64,4 @@ code {
   margin: auto;
   backdrop-filter: blur(10px);
 }
+

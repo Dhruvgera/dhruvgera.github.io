@@ -21,3 +21,13 @@
   position: absolute;
   bottom: 10px;
 }
+
+.inline-block { 
+  backdrop-filter: blur(2px);
+  display: inline-block; 
+  margin:10px;
+  }
+
+a {
+  color: #ff0081;
+}

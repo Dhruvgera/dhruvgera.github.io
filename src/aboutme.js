@@ -35,7 +35,7 @@ function Aboutme() {
                     ⠀⠀⠀⠀⠀⠀
                     ⠀⠀⠀⠀⠀⠀
                     <div>
-                        <Link to="mywork"><ReactBubblyEffectButton text="My Work" color='#fff' bgColor='#ff0081' /></Link>
+                        <Link to="/Work"><ReactBubblyEffectButton text="My Work" color='#fff' bgColor='#ff0081' /></Link>
                     </div>
                 </FadeIn>
             </header></div>

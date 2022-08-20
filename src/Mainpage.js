@@ -43,7 +43,7 @@ function Mainpage () {
             ⠀⠀⠀⠀⠀⠀
             <div className="button-proceed-homepage">
               
-            <Link to="aboutme"><ReactBubblyEffectButton text="About Me" color='#fff' bgColor='#ff0081' onClick={onClick} /></Link>
+            <Link to="aboutme"><ReactBubblyEffectButton text="About Me" color='#fff' bgColor='#ff0081' /></Link>
              
             </div>
           </FadeIn>

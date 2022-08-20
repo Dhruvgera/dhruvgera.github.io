@@ -6,11 +6,12 @@ import FadeIn from 'react-fade-in';
 import { Link } from 'react-router-dom';
 
 function Mainpage() {
+  window.scrollTo(0, 0)
   return (
     <>
       <div className="App">
         <header className="App-header">
-          <FadeIn delay={1200}>
+          <FadeIn delay={500}>
             <div><p className="align-left">Hi! I'm</p></div>
             <div><p className="name-color">Dhruv Gera</p></div>
             <div>
@@ -21,7 +22,7 @@ function Mainpage() {
                   onInit={(typewriter) => {
 
                     typewriter
-                      .pauseFor(2500)
+                      .pauseFor(1100)
                       .typeString("Python")
                       .pauseFor(1000)
                       .deleteAll()
@@ -38,10 +39,9 @@ function Mainpage() {
                 and many more languages/frameworks!
               </p>
             </div>
-            ⠀⠀⠀⠀⠀⠀
-            ⠀⠀⠀⠀⠀⠀
-            ⠀⠀⠀⠀⠀⠀
             <div className="button-proceed-homepage">
+            <br></br>
+            <br></br>
               <Link to="aboutme"><ReactBubblyEffectButton text="About Me" color='#fff' bgColor='#ff0081' /></Link>
             </div>
           </FadeIn>

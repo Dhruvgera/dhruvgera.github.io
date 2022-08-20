@@ -6,26 +6,27 @@ import { Link } from 'react-router-dom';
 import FadeIn from 'react-fade-in';
 
 function Work() {
+    window.scrollTo(0, 0)
     return (
         <div className="App">
             <header className="App-header">
-                <FadeIn delay={1200}>
+                <FadeIn delay={500}>
                     <div>
                         <p className="name-color">Some of my works include: </p>
                     </div>
                     <div>
                         <div className='inline-block' style={{ width: "405px" }}>
-                            <RepoCard username="dhruvgera" repository="custom_python_scripts" />
+                            <RepoCard username="dhruvgera" repository="custom_python_scripts" dark="true" />
                         </div>
                         <div className='inline-block' style={{ width: "405px" }}>
-                            <RepoCard username="dhruvgera" repository="Rockstarkernel_WSL2" />
+                            <RepoCard username="dhruvgera" repository="Rockstarkernel_WSL2" dark="true" />
                         </div>
                         <div>
                             <div className='inline-block' style={{ width: "405px" }}>
-                                <RepoCard username="dhruvgera" repository="Rockstarkernel_beryllium" />
+                                <RepoCard username="dhruvgera" repository="Rockstarkernel_beryllium" dark="true" />
                             </div>
                             <div className='inline-block' style={{ width: "405px" }}>
-                                <RepoCard username="dhruvgera" repository="cygnuswalls" />
+                                <RepoCard username="dhruvgera" repository="cygnuswalls" dark="true" />
                             </div>
                         </div>
                     </div>
@@ -52,8 +53,9 @@ function Work() {
                                 There's more on my <a href="https://github.com/dhruvgera" target="_blank" >GitHub</a> account! Some of my work is on organisations where I work with other people.
                             </p>
                         </div>
-                        <br></br>
                         <div>
+                            <br></br>
+                            <br></br>
                             <Link to="/Contactme"><ReactBubblyEffectButton text="Contact Me" color='#fff' bgColor='#ff0081' /></Link>
                         </div>
                     </div>

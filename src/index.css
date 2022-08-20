@@ -30,22 +30,27 @@ code {
 }
 
 .name-color{
+  backdrop-filter: blur(0px);
   font-family: 'Poppins';
   color: #ff006f;
   font-size: 50px;
 }
 
 .highlight-color{
+  backdrop-filter: blur(0px);
   font-family: 'Poppins';
   color: #ff006f;
 }
 
 .align-left{
+  backdrop-filter: blur(0px);
+  color:aliceblue;
   font-family: 'Poppins';
   font-size: 40px;
 }
 
 .subtext-list{
+  backdrop-filter: blur(0px);
   font-family: 'Poppins';
   font-size: 15px;
 }
@@ -65,3 +70,7 @@ code {
   backdrop-filter: blur(10px);
 }
 
+p {
+  backdrop-filter: blur(0px);
+  color:aliceblue;
+}

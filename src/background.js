@@ -24,7 +24,7 @@ function Background() {
             options={{
                 fpsLimit: 60,
                 background: {
-
+                    color: "#202124"
                 },
                 backgroundMode: {
                     enable: true

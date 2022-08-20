@@ -24,7 +24,7 @@ function Aboutme() {
                             <p>
                                 Apart from all these, I also have coded many <a className="highlight-color"><b>Android Apps</b></a> for clients,
                                 as well as Websites ranging from simple <a className="highlight-color"><b>Wordpress</b></a> like CMS as well as
-                                custom ones made from scratch in <a className="highlight-color">React</a> and other frameworks!
+                                custom ones made from scratch in <a className="highlight-color"><b>React</b></a> and other frameworks!
                                 <p>
                                     I am also currently trying to find my way with <a className="highlight-color"><b>Solana</b></a> and other <a className="highlight-color"><b>Web3 </b></a>
                                     technologies! A <a className="highlight-color"><b>full stack developer</b></a> indeed!

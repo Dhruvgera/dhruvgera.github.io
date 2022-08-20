@@ -39,7 +39,7 @@ function Background() {
                     },
                     move: {
                         enable: true,
-                        speed: 4
+                        speed: 3
                     },
                     size: {
                         value: 5,
